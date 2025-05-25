@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+/* :root {
+  --lightPink: #FEF0F4;
+  --white: #ffffff;
+  --deepPink: #720D43;
+  --bodyText: #212121 5A3E36;
+} */
+
+@theme {
+  --color-lightPink: #FEF0F4;
+  --color-white: #ffffff;
+  --color-deepPink: #720D43;
+  /* --color-deepPink: #791B3A; */
+  --color-black: #212121;
+}
+
+/* src/index.css */
+
+/* Apply global text color for the body */
+@layer base {
+  body {
+    color: #212121; /* Set body text to dark gray */
+    font-family: 'Lato', sans-serif;
+    background-color: #FEF0F4;
+    /* font-family: 'Arial', sans-serif; */
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Garamond', serif;
+  }
+
+  /* Ensure links have the correct color globally */
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #720D43; /* Hover color for links */
+  }
+
+  .font-signature {
+    font-family: 'Dancing Script', cursive;
+  }
+
+  .no-outline:focus {
+    outline: #720D43 !important; /* Use !important to ensure it overrides other styles */
+  }
+
+  select option {
+    font-size: 8.75rem;
+  }
+  
+
+}
+

@@ -73,7 +73,7 @@ const Footer = () => {
 
         {/* Copyright Notice */}
         <p className="text-sm text-white/80 mt-4">
-          © {new Date().getFullYear()} Lawlah Sweets. All rights reserved.
+          © {new Date().getFullYear()} Lawlah Sweets. All rights reserved. Web Design by <span> <a href="https://madewithlux.com"> MadeWithLux</a> </span>
         </p>
       </div>
     </footer>

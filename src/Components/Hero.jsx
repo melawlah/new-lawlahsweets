@@ -49,9 +49,9 @@ const Hero = () => {
         {/* Right Side: Cake Image */}
         <div className="hidden md:block">
           <img
-            src="/assets/lawlah-sweets-hero-section-image.png" // Replace with your cake image
+            src="/assets/lawlah-sweets-hero-section-image.png" 
             alt="Delicious Cake"
-            className="w-full max-w-lg scale-x-[-1]"
+            className="w-full max-w-xl scale-x-[-1.1]"
           />
         </div>
       </div>

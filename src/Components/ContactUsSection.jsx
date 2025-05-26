@@ -388,7 +388,7 @@ const ContactUsSection = () => {
                   href="mailto:lawlahsweets@gmail.com"
                   className="text-md text-gray-700 hover:text-deepPink transition-colors"
                 >
-                  lawlahsweets@gmail.com.com
+                  lawlahsweets@gmail.com
                 </a>
               </div>
             </div>

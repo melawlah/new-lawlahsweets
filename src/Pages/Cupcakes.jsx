@@ -5,14 +5,14 @@ const Cupcakes = () => {
   const navigate = useNavigate();
 
   const cupcakes = [
+    // {
+    //   name: 'Box of 6 Cupcakes',
+    //   image: 'https://res.cloudinary.com/lawlah/image/upload/v1745872306/cupcake_p96sh7.png',
+    //   alt: 'box-of-6-cupcakes',
+    // },
     {
-      name: 'Box of 6 Cupcakes',
-      image: 'https://res.cloudinary.com/lawlah/image/upload/v1745872306/cupcake_p96sh7.png',
-      alt: 'box-of-6-cupcakes',
-    },
-    {
-      name: 'Box of 12 cupcakes',
-      image: '/assets/double-choc-chip-white-backg.png',
+      name: 'Cupcakes',
+      image: '/assets/doughnuts (3).png',
       alt: 'box-of-12-cupcakes',
     },
   ];
@@ -66,7 +66,7 @@ const Cupcakes = () => {
               >
                 <div className="text-center">
                   <img
-                    src={cupcake.name}
+                    src={cupcake.image}
                     alt={cupcake.name}
                     className="w-full h-48 object-cover rounded-xl mb-4 transition-transform duration-500 group-hover:scale-105"
                   />

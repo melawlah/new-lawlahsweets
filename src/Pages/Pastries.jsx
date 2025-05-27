@@ -5,52 +5,52 @@ const Pastries = () => {
   const navigate = useNavigate();
 
   const pastries = [
-    {
-      name: 'Meatpie',
-      image: '/assets/meatpie-white-background.png',
-      alt: 'meatpies',
-      desc: '',
-      regPrice: '25',
-      partyPrice: '70'
-    },
-    {
-      name: 'Doughnuts',
-      image: '/assets/doughnuts-white-background.png',
-      alt: 'doughnuts',
-      desc: '',
-      regPrice: '20',
-      partyPrice: '70'
-    },
-    {
-      name: 'Small Chops',
-      image: '/assets/smallchops-white-background.png',
-      alt: 'smallchops',
-      desc: '',
-      regPrice: '30',
-      partyPrice: '150'
-    },
-    {
-        name: 'Puffpuff',
-        image: '/assets/puffpuff-white-background.png',
-        alt: 'puffpuff',
-        desc: '',
-        regPrice: '20',
-        partyPrice: '70'
-      },
+    // {
+    //   name: 'Meatpie',
+    //   image: '/assets/meatpie-white-background.png',
+    //   alt: 'meatpies',
+    //   desc: '',
+    //   regPrice: '25',
+    //   partyPrice: '70'
+    // },
+    // {
+    //   name: 'Doughnuts',
+    //   image: '/assets/doughnuts-white-background.png',
+    //   alt: 'doughnuts',
+    //   desc: '',
+    //   regPrice: '20',
+    //   partyPrice: '70'
+    // },
+    // {
+    //   name: 'Small Chops',
+    //   image: '/assets/smallchops-white-background.png',
+    //   alt: 'smallchops',
+    //   desc: '',
+    //   regPrice: '30',
+    //   partyPrice: '150'
+    // },
+    // {
+    //     name: 'Puffpuff',
+    //     image: '/assets/puffpuff-white-background.png',
+    //     alt: 'puffpuff',
+    //     desc: '',
+    //     regPrice: '20',
+    //     partyPrice: '70'
+    //   },
     {
         name: 'Mo\'s Special',
-        image: '/assets/mo-white-background.png',
+        image: '/assets/doughnuts (4).png',
         alt: 'Mo',
         desc: '',
         regPrice: '15',
     },
-    {
-        name: 'Arams\'s Special',
-        image: '/assets/red-velvet-cookie-white-background.png',
-        alt: 'arams',
-        desc: '',
-        regPrice: '80'
-    },
+    // {
+    //     name: 'Arams\'s Special',
+    //     image: '/assets/red-velvet-cookie-white-background.png',
+    //     alt: 'arams',
+    //     desc: '',
+    //     regPrice: '80'
+    // },
 
   ];
 
@@ -77,7 +77,7 @@ const Pastries = () => {
               <h3 className="text-md font-semibold text-black mb-3">
                 {pastry.name}
               </h3>
-              <button
+              {/* <button
                 onClick={() =>
                   navigate(`/pastry/${pastry.name}`, {
                     state: { pastry },
@@ -86,7 +86,7 @@ const Pastries = () => {
                 className="bg-deepPink text-white px-4 py-2 rounded-md hover:bg-lightPink hover:text-deepPink transition-all text-sm font-medium"
               >
                 Add to Cart
-              </button>
+              </button> */}
             </div>
           ))}
         </div>

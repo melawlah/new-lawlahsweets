@@ -242,7 +242,7 @@ const CupcakeDetails = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
         {/* Image */}
         <img
-          src={cupcake?.image || '/assets/cupcake-placeholder.png'}
+          src={cupcake?.image || '/assets/doughnuts (3).png'}
           alt={name}
           className="w-full h-96 object-cover rounded-2xl shadow-lg"
         />

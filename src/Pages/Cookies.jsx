@@ -5,26 +5,26 @@ const Cookies = () => {
   const navigate = useNavigate();
 
   const cookies = [
-    {
-      name: 'Chocolate Chip Cookies',
-      image: '/assets/choc-chip-white-background.png',
-      alt: 'Chocolate Chip Cookies',
-    },
-    {
-      name: 'Double Chocolate Chip Cookies',
-      image: '/assets/double-choc-chip-white-backg.png',
-      alt: 'Double Chocolate Chip Cookies',
-    },
+    // {
+    //   name: 'Chocolate Chip Cookies',
+    //   image: '/assets/choc-chip-white-background.png',
+    //   alt: 'Chocolate Chip Cookies',
+    // },
+    // {
+    //   name: 'Double Chocolate Chip Cookies',
+    //   image: '/assets/double-choc-chip-white-backg.png',
+    //   alt: 'Double Chocolate Chip Cookies',
+    // },
     {
       name: 'Red Velvet Cookies',
-      image: '/assets/red-velvet-cookie-white-background.png',
+      image: '/assets/red-velvet-cookies.png',
       alt: 'Red Velvet Cookies',
     },
-    {
-      name: 'Plain Cookies',
-      image: '/assets/plain-cookie-white-background.png',
-      alt: 'Plain Cookies',
-    },
+    // {
+    //   name: 'Plain Cookies',
+    //   image: '/assets/plain-cookie-white-background.png',
+    //   alt: 'Plain Cookies',
+    // },
   ];
 
   return (
@@ -50,7 +50,7 @@ const Cookies = () => {
               <h3 className="text-md font-semibold text-black mb-3">
                 {cookie.name}
               </h3>
-              <button
+              {/* <button
                 onClick={() =>
                   navigate(`/cookie/${cookie.name}`, {
                     state: { cookie },
@@ -59,7 +59,7 @@ const Cookies = () => {
                 className="bg-deepPink text-white px-4 py-2 rounded-md hover:bg-lightPink hover:text-deepPink transition-all text-sm font-medium"
               >
                 Add to Cart
-              </button>
+              </button> */}
             </div>
           ))}
         </div>

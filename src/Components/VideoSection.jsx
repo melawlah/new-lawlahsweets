@@ -80,7 +80,7 @@ const VideoSection = () => {
 
             {/* Fullscreen Video */}
             <video
-              src="/assets/cake-decorating-process-video.mp4" // Same video as the main section
+              src="https://res.cloudinary.com/lawlah/video/upload/v1745856042/cake-decorating-process-video_drjvch.mp4" // Same video as the main section
               className="w-full h-auto"
               controls
               autoPlay
